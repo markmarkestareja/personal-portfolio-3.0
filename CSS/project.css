@@ -1,0 +1,14 @@
+h2{
+    font-size: 68px;
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+h2 span{
+    font-weight: 200;
+    font-style: italic;
+}
+
+
+

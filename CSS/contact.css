@@ -1,0 +1,45 @@
+.about-container .contact-details svg{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+form input, form textarea{
+    padding: 1.3rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    background-color: var(--dark2-color);
+    border-radius: 0 5px 5px 5px;
+    color: var(--light-color);
+}
+
+form a{
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    width: fit-content;
+}
+
+.form-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-socmed svg{
+    width: 1.5rem;
+    height: 1.5rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.form-socmed svg:hover{
+    color: var(--main-color);
+}

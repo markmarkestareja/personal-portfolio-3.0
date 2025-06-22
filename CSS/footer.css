@@ -1,0 +1,12 @@
+footer{
+    width: 100%;
+    height: auto;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.foot p{
+    font-size: 14px;
+}
