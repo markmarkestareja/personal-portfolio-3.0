@@ -9,13 +9,15 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    background: #000; 
+    background: #1B1B1B; 
     overflow: hidden;
 
     justify-self: center;
 
     padding: 1rem;
 }
+
+
 
 .project-img-card::before{
     content: "";

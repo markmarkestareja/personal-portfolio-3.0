@@ -36,6 +36,7 @@ h3{
   color: white;
 
   justify-self: center;
+  border: 1px solid red;
 }
 
 .project-card::before {
@@ -89,5 +90,9 @@ h4{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   row-gap: 80px;
-  justify-content: center;
+  justify-items: center;
+}
+
+.project-card img{
+  margin-top: auto;
 }
