@@ -1,6 +1,28 @@
-.about-container .contact-details svg{
+.contact-details{
+    display: flex;
+    gap: 1rem;
+
+    align-self: flex-start;
+    margin-top: 1rem;
+}
+
+.contact-details svg{
     width: 1.5rem;
     height: 1.5rem;
+}
+
+.contact-container{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container p{
+    text-align: center;
 }
 
 form{

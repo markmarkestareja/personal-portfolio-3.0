@@ -4,6 +4,16 @@
 
 }
 
+.projectWeb-container{
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .project-header{
     width: 100%;
     height: auto;
@@ -36,7 +46,6 @@ h3{
   color: white;
 
   justify-self: center;
-  border: 1px solid red;
 }
 
 .project-card::before {
@@ -89,7 +98,7 @@ h4{
 .project-card-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  row-gap: 80px;
+  gap: 80px;
   justify-items: center;
 }
 

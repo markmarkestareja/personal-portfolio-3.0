@@ -1,4 +1,4 @@
-<div class="about-container">
+<div class="contact-container">
     <h2 class="section-h2">CONTACT MARK</h2>
     <h3 class="section-h3">LET'S <span>WORK</span> TOGETHER</h3>
     <p>Hello, if you find my works interesting or have any inquiries, feel free to fill out the form below or you can

@@ -13,6 +13,14 @@ h1, h2, h3.section-h3{
     
 }
 
+h2{
+    line-height: 1;
+}
+
 main{
     width: 60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

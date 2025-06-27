@@ -48,4 +48,147 @@
     main{
         width: 40rem;
     }
+
+    h2, h3.section-h3{
+        font-size: 55px;
+    }
+
+    h3{
+        font-size: 34px;
+    }
+    h4{
+        font-size: 21px;
+    }
+
+    h2.section-h2{
+        font-size: 12px;
+    }
+
+    .about-container p{
+        font-size: 16px;
+    }
 }
+
+@media (max-width: 720px) {
+    .project-card-container{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 680px) {
+
+    .header-container{
+        max-width: 30rem;
+    }
+
+    main{
+        width: 35rem;
+    }
+
+    h1{
+        font-size: 50px;
+        margin-top: 1rem;
+    }
+    
+    h1 span{
+        font-size: 42px;
+    }
+
+    .header-text h2{
+        font-size: 114px;
+        line-height: 1.1;
+    }
+
+    h2.developer{
+        font-size: 37px;
+    }
+
+    .about-container .contact-details{
+        flex-direction: column;
+        gap: 5px;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .header-container{
+        max-width: 25rem;
+    }
+
+    main{
+        width: 25rem;
+    }
+
+    h1{
+        font-size: 30px;
+        margin-top: 1rem;
+    }
+    
+    h1 span{
+        font-size: 32px;
+    }
+
+    .header-text h2{
+        font-size: 80px;
+        line-height: 1.1;
+        
+    }
+
+    h2.developer{
+        font-size: 28px;
+    }
+
+    a{
+        font-size: 11px;
+    }
+
+    .arrow-icon{
+        width: 1rem;
+    }
+
+    h2, h3.section-h3{
+        font-size: 45px;
+    }
+
+    h3{
+        font-size: 28px;
+    }
+    h4{
+        font-size: 21px;
+    }
+
+    h2.section-h2{
+        font-size: 12px;
+    }
+
+    .about-container p{
+        font-size: 16px;
+    }
+
+    .about-container p{
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .contact-container, .about-container{
+        width: 18rem;
+    }
+    .line{
+        display: none;
+    }
+
+    .project-header{
+        justify-content: center;
+        align-items: center;
+        width: 20rem;
+        text-align: center;
+    }
+
+    main{
+        width: 20rem;
+    }
+}
+
