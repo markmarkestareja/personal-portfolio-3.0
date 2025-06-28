@@ -7,19 +7,23 @@
 
     <div class="project-card-container">
         <div class="project-img-card">
-            <img src="ASSETS/img/project-redesign/bulldog faceta.png" alt="">
+            <img src="ASSETS/img/project-other/assemblyManual.jpg" alt="">
         </div>
 
         <div class="project-img-card">
-            <img src="ASSETS/img/project-redesign/skinny sculptures.png" alt="">
+            <img src="ASSETS/img/project-other/Bean Co Menu Template.jpg" alt="">
         </div>
 
         <div class="project-img-card">
-            <img src="ASSETS/img/project-redesign/root sculpture.png" alt="">
+            <img src="ASSETS/img/project-other/Heinimex Calling Card.png" alt="">
         </div>
 
         <div class="project-img-card">
-            <img src="ASSETS/img/project-redesign/christmas bench.png" alt="">
+            <img src="ASSETS/img/project-other/Baptism Invitation.jpg" alt="">
+        </div>
+
+        <div class="project-img-card">
+            <img src="ASSETS/img/project-other/arieEmailSignature.jpg" alt="">
         </div>
     </div>
 

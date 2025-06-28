@@ -7,19 +7,19 @@
 
     <div class="project-card-container">
         <div class="project-img-card">
-            <img src="ASSETS/img/project-redesign/bulldog faceta.png" alt="">
+            <img src="ASSETS/img/project-scene/170181.jpg" alt="">
         </div>
 
         <div class="project-img-card">
-            <img src="ASSETS/img/project-redesign/skinny sculptures.png" alt="">
+            <img src="ASSETS/img/project-scene/boulders.jpg" alt="">
         </div>
 
         <div class="project-img-card">
-            <img src="ASSETS/img/project-redesign/root sculpture.png" alt="">
+            <img src="ASSETS/img/project-scene/PH81190 v2.jpg" alt="">
         </div>
 
         <div class="project-img-card">
-            <img src="ASSETS/img/project-redesign/christmas bench.png" alt="">
+            <img src="ASSETS/img/project-scene/Rocky Ridge Dress Mirror.jpg" alt="">
         </div>
     </div>
 
