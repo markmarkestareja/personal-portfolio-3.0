@@ -22,7 +22,7 @@
                 </div>
             </div>
             <div class="header-vid">
-                <video width="100%" height="auto" loop autoplay>
+                <video width="100%" height="auto" loop autoplay muted playsinline>
                     
                     <source src="ASSETS/vid/vid.webm" type="video/webm">
                     <source src="ASSETS/vid/vid.mp4" type="video/mp4">
