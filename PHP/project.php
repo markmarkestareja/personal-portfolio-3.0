@@ -7,7 +7,6 @@
     include 'PHP/projectCreative.php';
     include 'PHP/projectRedesign.php';
     include 'PHP/projectScene.php';
-    include 'PHP/projectAutoCAD.php';
     include 'PHP/projectOther.php';
     ?>
 </div>

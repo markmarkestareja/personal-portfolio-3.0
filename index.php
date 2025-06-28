@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,6 +20,15 @@
         rel="stylesheet">
 
     <title>Mark Estareja</title>
+
+    <meta name="description"
+        content="Mark Estareja is a passionate web developer in the Philippines, specifically from Angeles City, Pampanga, 2009 — specializing in modern, responsive websites using HTML, CSS, JavaScript, and PHP.">
+    <meta name="keyword"
+        content="Mark Estareja, Web Developer, Web Designer, Portfolio, Front-end developer, HTML, CSS, JavaScript, PHP, freelance developer, responsive design, web design Philippines, web design Angeles City, Pampanga, 2009">
+    <meta name="author" content="Mark Estareja">
+    <meta name="robots" content="index, follow">
+
+
 </head>
 
 <body>
@@ -32,15 +45,30 @@
         ?>
     </main>
     <footer>
-        
+
         <?php
         include 'PHP/footer.php';
         ?>
     </footer>
-    
 
 
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script>
+        var messageText = "<?= $_SESSION['status'] ?? ''; ?>";
+        if (messageText != '') {
+
+            Swal.fire({
+                title: "Thank you!",
+                text: messageText,
+                icon: "success"
+            });
+
+            <?php unset($_SESSION['status']); ?>
+        }
+    </script>
 </body>
 
 </html>

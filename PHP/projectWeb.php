@@ -57,7 +57,7 @@
             </div>
             <h4>Cube Casa Modular Living Units</h4>
             <p>2025</p>
-            <a href="#">Visit the Website</a>
+            <a href="https://cubecasamodular.com/">Visit the Website</a>
             <img src="ASSETS/img/cubecasa mockup.png" alt="">
         </div>
 
@@ -113,7 +113,7 @@
             </div>
             <h4>Gubat Public Library Management System</h4>
             <p>2024</p>
-            <a href="#">Visit the Website</a>
+            <a href="#" class="a-disabled-link" title="This Website is currently not available.">Visit the Website</a>
             <img src="ASSETS/img/glms.png" alt="">
         </div>
 
@@ -174,7 +174,7 @@
         </div>
 
 
-        <div class="project-card">
+        <div class="project-ca  rd">
             <div class="project-icon">
                 <ul>
                     <li><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24">

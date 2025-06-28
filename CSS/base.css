@@ -5,6 +5,10 @@
     --light-color: #fff;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 h1, h2, h3.section-h3{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -23,4 +27,13 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.a-disabled-link{
+    cursor: not-allowed;
+    
+}
+
+.a-disabled-link:hover{
+    color: grey;
 }
