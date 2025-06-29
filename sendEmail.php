@@ -36,14 +36,14 @@ if(isset($_POST['submitContact'])){
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'mark.estareja.me@gmail.com';        // Change to your Gmail
-        $mail->Password   = 'fmozzwxskrkxxcku';           // Use Gmail App Password or env var
+        $mail->Username   = '';        // Change to your Gmail
+        $mail->Password   = '';           // Use Gmail App Password or env var
         $mail->SMTPSecure = 'tls';
         $mail->Port       = 587;
 
         // Sender and recipient
-        $mail->setFrom('mark.estareja.me@gmail.com', 'Website Inquiry');
-        $mail->addAddress('mark.estareja.me@gmail.com');        // Change to your receiving email
+        $mail->setFrom('', 'Website Inquiry');
+        $mail->addAddress('');        // Change to your receiving email
         $mail->addReplyTo($email, $name);                  // Reply to sender
 
         // Email content
